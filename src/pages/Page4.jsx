@@ -258,6 +258,14 @@ const projects = [
       "/todesktop_p1.jpg",
   },
   {
+    title: "Personal Expense Tracker",
+    description: "Budget tacking ",
+    liveUrl: "https://roaring-marzipan-c459ce.netlify.app/",
+    githubUrl: "https://github.com/username/fresh-haystack",
+    imageUrl:
+      "/tracker.jpg",
+  },
+  {
     title: "MovieFlow website to gain idea about upcoming and recent movies",
     description: "Modern Business Portfolio / FOR SALE",
     liveUrl: "https://movie-flow-6064ea.netlify.app/",
