@@ -250,43 +250,40 @@ import React, { useState } from "react";
 
 const projects = [
   {
-    title: "ToDesktop HomePage Clone",
+    title: "Fintech HomePage Clone",
     description: "IT Company / Tech Product",
-    liveUrl: "https://luxury-youtiao-bd3dc1.netlify.app/",
-    githubUrl: "https://github.com/username/fresh-haystack",
-    imageUrl:
-      "/todesktop_p1.jpg",
+    liveUrl: "https://easy-pay-website-figtoweb-xwhw.vercel.app/",
+    githubUrl: "https://github.com/Mesbah-M13/easy-pay-website-figtoweb.git",
+    imageUrl: "/fitnech.jpg",
   },
   {
     title: "Personal Expense Tracker",
     description: "Budget tacking ",
     liveUrl: "https://roaring-marzipan-c459ce.netlify.app/",
     githubUrl: "https://github.com/username/fresh-haystack",
-    imageUrl:
-      "/tracker.jpg",
+    imageUrl: "/tracker.jpg",
+  },
+  {
+    title: "Food Delivery Site",
+    description: "Listing food items & add the foods to the cart",
+    liveUrl: "https://coruscating-churros-241351.netlify.app/",
+    githubUrl: "https://github.com/Mesbah-M13/food-delivery-site",
+    imageUrl: "/food_delivery_site.jpg",
   },
   {
     title: "MovieFlow website to gain idea about upcoming and recent movies",
     description: "Modern Business Portfolio / FOR SALE",
     liveUrl: "https://movie-flow-6064ea.netlify.app/",
     githubUrl: "https://github.com/Mesbah-M13/movie-flow-frontend-project.git",
-    imageUrl:
-      "movieFlow_p2.jpg",
+    imageUrl: "movieFlow_p2.jpg",
   },
   {
     title: "Dental Care Alpha",
     description: "Innovative dental care web solution",
     liveUrl: "https://courageous-hamster-32ba03.netlify.app/",
-    githubUrl: "https://github.com/Mesbah-M13/dental-care-compound-home-page.git",
+    githubUrl:
+      "https://github.com/Mesbah-M13/dental-care-compound-home-page.git",
     imageUrl: "/dental_p3.jpg",
-  },
-  {
-    title: "Personal Expense Tracker",
-    description: "Tracking income & expence",
-    liveUrl: "https://coruscating-bavarois-073e20.netlify.app/",
-    githubUrl: "https://github.com/Mesbah-M13/expense-tracker.git",
-    imageUrl:
-      "/expense_p4.jpg",
   },
 ];
 
@@ -332,7 +329,9 @@ const App = () => {
                 {/* Buttons */}
                 <div
                   className={`flex  gap-4 mt-4 ${
-                    isEven ? "justify-start md:justify-center" : "justify-end md:justify-center"
+                    isEven
+                      ? "justify-start md:justify-center"
+                      : "justify-end md:justify-center"
                   }`}
                 >
                   <a
