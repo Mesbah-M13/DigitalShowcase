@@ -257,19 +257,20 @@ const projects = [
     imageUrl: "/fitnech.jpg",
   },
   {
-    title: "Personal Expense Tracker",
-    description: "Budget tacking ",
-    liveUrl: "https://roaring-marzipan-c459ce.netlify.app/",
-    githubUrl: "https://github.com/username/fresh-haystack",
-    imageUrl: "/tracker.jpg",
-  },
-  {
     title: "Food Delivery Site",
     description: "Listing food items & add the foods to the cart",
     liveUrl: "https://coruscating-churros-241351.netlify.app/",
     githubUrl: "https://github.com/Mesbah-M13/food-delivery-site",
     imageUrl: "/food_delivery_site.jpg",
   },
+  {
+    title: "Personal Expense Tracker",
+    description: "Budget tacking ",
+    liveUrl: "https://roaring-marzipan-c459ce.netlify.app/",
+    githubUrl: "https://github.com/username/fresh-haystack",
+    imageUrl: "/tracker.jpg",
+  },
+
   {
     title: "MovieFlow website to gain idea about upcoming and recent movies",
     description: "Modern Business Portfolio / FOR SALE",
